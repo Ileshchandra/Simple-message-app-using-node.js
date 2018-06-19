@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 // Database connection url
-var dbUrl = ('mongodb://user:1leshpatel@ds163650.mlab.com:63650/ipnode');
+var dbUrl = ('mongodb://<write userName>:<password>@ds163650.mlab.com:63650/ipnode');
 
 //DataBase model
 var Message = mongoose.model('Message', {
